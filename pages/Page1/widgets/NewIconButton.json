@@ -1,0 +1,49 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 12,
+    "widgetName": "NewIconButton",
+    "onClick": "{{navigateTo('www.yahoo.com', {}, 'SAME_WINDOW');}}",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [
+        {"key": "iconName"},
+        {"key": "onClick"}
+    ],
+    "displayName": "Icon button",
+    "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 8,
+    "bottomRow": 12,
+    "parentRowSpace": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 28,
+    "animateLoading": true,
+    "parentColumnSpace": 11.171875,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 24,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "isDisabled": false,
+    "key": "awdlqbg8i8",
+    "isDeprecated": false,
+    "rightColumn": 28,
+    "iconName": "add",
+    "widgetId": "r1lqa9bnzc",
+    "minWidth": 50,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 8,
+    "responsiveBehavior": "hug",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 24,
+    "buttonVariant": "PRIMARY"
+}
